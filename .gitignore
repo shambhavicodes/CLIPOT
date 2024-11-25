@@ -1,0 +1,54 @@
+# Ignore wandb, save, and data folders
+wandb/
+save/
+data/
+CIFAR10/
+CIFAR100/
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Test coverage files
+.coverage
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+pip-log.txt
+
+# Distribution files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# System files
+Thumbs.db
