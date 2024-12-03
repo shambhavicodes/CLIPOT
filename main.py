@@ -113,8 +113,6 @@ def main():
                 template_indices = list(range(args.num_templates))
                 for i in template_indices:
                     adapt_method.model.adapter.template_index = i
-                    adapt_method.model.adapter.prototypes.data = adapt_method.text_embeddings[:, i, :].to(device)
-
                     # Update prototypes and compute ClipOT loss
                     adapt_method.clipot_loss.prototypes = adapt_method.text_embeddings[:, i, :].to(device)
                     logits, img_feats = adapt_method.model(inputs)
