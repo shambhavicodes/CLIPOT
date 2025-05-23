@@ -1,0 +1,12 @@
+torch>=1.7.0
+torchvision>=0.8.0
+numpy>=1.19.0
+scikit-learn>=0.24.0
+tqdm>=4.50.0
+ftfy
+regex
+clip @ git+https://github.com/openai/CLIP.git
+pandas>=1.2.0
+matplotlib>=3.3.0
+Pillow>=8.0.0
+scipy>=1.6.0 
