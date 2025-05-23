@@ -17,7 +17,7 @@
 
    ```bash
    git clone https://github.com/your-repository/clipot.git
-   cd clipot
+   cd CLIPOT
    ```
 
 2. **Create a virtual environment**:
